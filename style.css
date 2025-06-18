@@ -1,0 +1,75 @@
+body {
+  background-color: #14182f;
+  color: white;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #ff6188;
+}
+
+.username {
+  color: #ff6188;
+  font-size: 2em;
+  margin: 0;
+}
+
+.subtitle {
+  color: #ff9ab8;
+  margin-bottom: 20px;
+}
+
+.welcome {
+  margin: 10px 0 20px;
+}
+
+.important-box {
+  background-color: #432b42;
+  border-left: 5px solid #ff4b6e;
+  padding: 15px;
+  text-align: left;
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+
+.important-box h3 {
+  color: #ff4b6e;
+  margin-top: 0;
+}
+
+.btn {
+  display: block;
+  padding: 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  margin: 10px auto;
+  width: 80%;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.telegram {
+  background-color: #229ed9;
+}
+
+.donate {
+  background-color: #e43f5a;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
